@@ -1,0 +1,3 @@
+[submodule "SynGEC"]
+	path = SynGEC
+	url = https://github.com/HillZhang1999/SynGEC.git
