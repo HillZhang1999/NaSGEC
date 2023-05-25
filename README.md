@@ -1,4 +1,4 @@
-# NaSGEC: Multi-Domain Chinese Grammatical Error Correction Dataset for Native Speaker Texts
+# NaSGEC: Multi-Domain Chinese Grammatical Error Correction for Native Speaker Texts
 
 [中文](./README.md)|[English](./README.en.md)
 ## 简介
