@@ -28,7 +28,7 @@ NaSGEC数据集主要包含3个中文母语领域的12,500个句子及其对应�
 
 ```
 git clone git@github.com:HillZhang1999/NaSGEC.git
-git submodule update --recursive --remote --force
+git submodule init && git submodule update --recursive --remote --force
 conda create -n nasgec python==3.8
 conda activate nasgec
 pip install -r requirements.txt
