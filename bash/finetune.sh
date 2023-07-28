@@ -54,7 +54,7 @@ cp ./finetune.sh $MODEL_DIR
 
 CUDA_VISIBLE_DEVICES=0 NCCL_DEBUG=INFO nohup python -u $FAIRSEQ_DIR/train.py $PROCESSED_DIR/bin \
   --save-dir $MODEL_DIR \
-  --user-dir ../ \
+  --user-dir ../SynGEC/src/src_syngec/syngec_model \
   --task syntax-enhanced-translation \
   --arch syntax_enhanced_bart_large \
   --finetune-from-model $PRETRAIN_MODEL_PATH \
