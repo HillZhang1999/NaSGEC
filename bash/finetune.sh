@@ -32,7 +32,7 @@ mkdir -p $PROCESSED_DIR/bin
 echo "Preprocessing..."
 
 python $FAIRSEQ_DIR/preprocess.py --source-lang src --target-lang tgt \
-  --user-dir ../ \
+  --user-dir ../SynGEC/src/src_syngec/syngec_model \
   --task syntax-enhanced-translation \
   --trainpref $PROCESSED_DIR/train.char \
   --validpref $PROCESSED_DIR/valid.char \
